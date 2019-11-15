@@ -1,4 +1,4 @@
-# sings Happy Birthday, sort of
+# plays Happy Birthday
 # Written for Paul Boersma's birthday in 2019
 # ©Xinyu Zhang, 2019 <xinyu.zhang1@student.uva.nl>
 
