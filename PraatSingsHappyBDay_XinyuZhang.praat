@@ -4,7 +4,7 @@
 
 beginPause: "Hello, Human"
 	comment: "Please turn on sound :)" 
-	comment: "or quit Praat then plug in headphones then restart the script, in that sequence"
+	comment: "or quit Praat then plug in headphones then restart the script, in that order"
 clicked = endPause: "ok, it's on", 1
 sf = 44100
 quaver  = 0.4
