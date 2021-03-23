@@ -107,7 +107,7 @@ knitr::include_graphics("PC2PC3O.png")
 ```{r, echo=FALSE, out.width="100%", fig.cap = "18< age < 30"}
 knitr::include_graphics("PC2PC3Y.png")
 ```
-We can also try some random forest!
+** Or, We can also try some random forest!**
 ```{r, echo=FALSE, out.width="100%", fig.cap = "ranking of bins in the younger speakers"}
 knitr::include_graphics("youngForest.png")
 ```
