@@ -1,85 +1,328 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Xinyu Zhang's Page</title>
-		<meta charset="UTF-8">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143097840-1"></script>
-		<script>
- 		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'UA-143097840-1');
-		</script>
-	</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<body>
-    	<h1>Hello World!</h1>
-    	<img title="Guess what this says!" src="spectrogram.png" alt="some spectrogram" width="1500" height="300">
-    	<p> This is Xinyu's page.</p>
-    	</br>
-    	Xinyu Zhang currently studies at <a href="https://https://www.uva.nl/en">University of Amsterdam</a>
-    	</br>
-	<p></hr>You can reach me at xinyu.zhang1[at]student.uva.nl</hr></p>
-    	<p>The prescriptive pronunciation of my name [ɕin55.ɥy21], but I really don't mind if you get creative about it. Siri has been calling me ['zi:naiu] since forever and I never even correct her.</p>
-    	<h2>Update:</h2>
-    	<ul>
-     		<li> I have a <a href="https://drive.google.com/file/d/1sYRAoyJ1fiBQaxDbEcosLbsPIdXS3gyU/view"> poster presentation</a> at <a href=https://www.let.rug.nl/tabudag/index.php>TABU Dag 2019</a> on vowel space shift after treatment of oral cancer, that I worked on with <a href="http://www.fon.hum.uva.nl/rob/">Dr. Rob van Son</a></li>
-      		<li> I am (and will be for a while) plotting Dutch sibilants. Shoot me a message if you have thoughts on predictors besides CoG, or thoughts on a phonetic space for fricatives in general.</li>
-    		<li> I recently started playing the Otamatone and the Kalimba. Contact me if you want to do something fun togeter (I also took piano lessons between the age of 5 and 10 so that's an option too)!</li>
-		<li> I am studying acoustic correlates for perceived breathiness and roughness in voices of individuals who have undergone treatment for laryngeal cancer. Drop me a line if you want to discuss!
-	</ul>
-		<br>
-		<h2>Party tricks:</h2>
-		<p>by me
-		<ul>
-			<li>Praat sings Happy Birthday <a href="PraatSingsHappyBDay_XinyuZhang.praat"> download link</a> (save it with a <code>.praat</code> extension and double-click and <code>run</code> in Praat)</li>
-			<li>An R script that generates participant/appointment-specific email replies (to appear here soon).
-		</ul>
-		<br>
-	
-    		<h2>Preliminary Results in the sibilant study:</h2>
-    		<p>Below are some preliminary findings from my study on the acoustic and auditory dispersion of voiceless sibilants in Dutch. But this is only primitive since I still need to control for vowels and other factors.</p>
-		<p><a href="new.pdf"> Here<a/>'s some occasionally updated work in progress. I'm still trying to figure out how to automate this by Git.
-    		<p>Participants: Thank you for your participation! I wouldn't be able to finish my paper without you. You will be emailed your participant ID soon so you can see which circles you are on the graphs.</p>
-    		<br>
-    		<h3>Acoustic distance between [ɕ] and [s] in each participant, separated by age group:</h3>
-		<figure>
-			<img src="CoG-StdevY.png" alt="Center of Gravity on X-axis, standard deviation of the peak on Y-axis" width="800" height="400">
-    			<figcaption>Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis</figcaption>
-		</figure>
-		<br>
-		<figure>
-    			<img src="CoG-StdevO.png" alt="Center of Gravity on X-axis, standard deviation of peak on Y-axis" width="800" height="400">
-    			<figcaption>Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis</figcaption>
-		</figure>
-		<p>The red and blue circles in the above plot for older speakers have more overlap than in the first plot for young speakers.</p>
-		<br>
-		<h3>Eigenvectors 1-3 in the Principal Component Analysis:</h3>
-		<p>“Elements” in the following plots refer to frequency bins in the long-term-average-spectra (bin width = 250 Hz, LTAS range = 550 - 10000 Hz).<p/>
-		<img src="Eigenvector1.png" alt="Eigenvector1" width="600" height="300">
-    		<p>So PC1 is very likely just amplitude difference.</p>
-    		<br>
-    		<img src="eigenvector2&3.png" alt="Eigenvectors 2 and 3" width="600" height="600">
-    		<br>
-    		<h3>Sibilants according to age group and Principal Components:</h3>
-    		<img src="PC2PC3O.png" alt="PC2-PC3_o" width="600" height="400">
-			<figcaption>"The two sibilants produced by the older group, plotted according to their principal component scores in the second and third principal components"</figcaption>
-    		<img src="PC2PC3Y.png" alt="PC2-PC3_y" width="600" height="400">
-			<figcaption>"The two sibilants produced by the yuonger group, plotted according to their principal component scores in the second and third principal components"</figcaption>
-		<p>More detailed explnanation in the paper :) </p>
-    		<br>
-		<h2>And some dog pictures to brighten your day (if you are a dog person):</h2>
-		<img src="maggie1.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie2.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie3.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie4.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie5.JPG" alt="photo of Maggie" width="400" height = "300">
-		<img src="maggie6.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie7.JPG" alt="photo of Maggie" width="300" height = "300">
-		<img src="maggie8.JPG" alt="photo of Maggie" width="300" height = "300">
-			
-		<p>This^ is Maggie. The love of my life (besides the things I do with Praat), my <i>raison d'être</i> (besides the things I do with Praat), my favorite earthling, who provided me with the opportunity to learn that I am able to unconditionally love a living being so deep and so hard. Maggie turned 5 this May. I'm eternally grateful that she exists.</p>
-  	</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
+
+    <title>Xinyu Zhang</title>
+
+    
+    
+    
+  </head>
+  <body>
+
+    
+    <div class="container-fluid d-none d-lg-block d-xl-block">
+      <div class="d-flex row flex-row vh-100">
+        <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
+          <div class="mx-auto text-center">
+            <div class="p-3">
+              <img src=pinch.jpg style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2">
+              <h1>Xinyu Zhang</h1>
+            </div>
+            <hr style="width:60%;"/>
+            <div class="p-2">
+              <div id="icon-list">
+                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                    <a href=mailto:xinyu.zhang1@student.uva.nl>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Email
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://twitter.com/extrametriclWug>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Twitter
+                      </button>
+                    </a>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column vh-100 border-left"></div>
+        <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
+          <div class="my-5" id="content">
+            <head>
+                    <title>Xinyu Zhang's Page</title>
+                    <meta charset="UTF-8">
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143097840-1"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'UA-143097840-1');
+                    </script>
+            </head>
+            <p><img src="spectrogram.png" width="100%" /></p>
+            <div id="bio" class="section level2">
+            <h2>Bio</h2>
+            <p>Xinyu Zhang ([ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥]) is a linguist in training. She currently studies at <a href="https://aclc.uva.nl/about/about-aclc-update.html">ACLC</a> of <a href="https://https://www.uva.nl/en">University of Amsterdam</a>, under the supervision of <a href="https://www.fon.hum.uva.nl/rob/">Dr. Rob van Son</a> and <a href="https://www.fon.hum.uva.nl/paul/">Dr. Paul Boersma</a>. Her main areas of interest are phonetics and phonology, acoustic and articulatory phonetics, and production-perception interaction.</p>
+            <p>Her most recent research projects include a study on the cross-generation auditory dispersion of the Dutch sibilants /s/ and /ɕ/, and a study of the psychoacoustics of perceived voice qualities after the treatment of laryngeal carcinoma.</p>
+            <p>Please like and subscribe :)</p>
+            </div>
+            <div id="education" class="section level2">
+            <h2>Education</h2>
+            <p><strong>University of Amsterdam - ACLC</strong> | Amsterdam, The Netherlands</p>
+            <p>M.Phil in Linguistics | September 2019 - Now</p>
+            <p><strong>University of Amsterdam</strong> | Amsterdam, The Netherlands</p>
+            <p>MA in General Linguisitics | September 2018 - August 2020</p>
+            </div>
+            <div id="party-tricks" class="section level2">
+            <h2>Party Tricks</h2>
+            <p><strong>Praat sings Happy Birthday</strong> | <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/PraatSingsHappyBDay_XinyuZhang.praat">Praat Script</a> | © Xinyu Zhang, 2019</p>
+            <p><strong>Let R automate participant notification email for ya</strong> | <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/automail">R script + Rmd</a>|© Mine Çetinkaya-Rundel, 2015; modified by Xinyu Zhang, 2021</p>
+            </div>
+            <div id="results-from-the-voice-quality-study" class="section level2">
+            <h2>Results from the voice quality study:</h2>
+            <p><strong>Progress as of March 3, 2021</strong></p>
+            <ul>
+            <li><p>View <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/MPhilThesisPresentation.pdf">slides</a></p></li>
+            <li><p>Some highlights:</p></li>
+            </ul>
+            <div class="figure">
+            <img src="roughnessPlot.png" alt="Roughness as predicted by acoustic measurements" width="100%" />
+            <p class="caption">
+            Roughness as predicted by acoustic measurements
+            </p>
+            </div>
+            <div class="figure">
+            <img src="breathinessPlot.png" alt="De-correlated breathiness as predicted by acoustic measurements" width="100%" />
+            <p class="caption">
+            De-correlated breathiness as predicted by acoustic measurements
+            </p>
+            </div>
+            </div>
+            <div id="results-from-the-sibilant-study" class="section level2">
+            <h2>Results from the sibilant study</h2>
+            <p>(All participants who indicated interest in the findings on the consent form have been emailed the full results. Thank you all for donating your voices &lt;3)</p>
+            <p>If you want to read the whole paper: <a href="https://scripties.uba.uva.nl/search?id=c3239102">PDF</a>.</p>
+            <p>Otherwise, some TL;DR:</p>
+            <p><strong>Acoustic distance between [ɕ] and [s] in each participant, separated by age group:</strong></p>
+            <div class="figure">
+            <img src="CoG-StdevY.png" alt="Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis" width="100%" />
+            <p class="caption">
+            Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis
+            </p>
+            </div>
+            <div class="figure">
+            <img src="CoG-StdevO.png" alt="Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis" width="100%" />
+            <p class="caption">
+            Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis
+            </p>
+            </div>
+            <p>The red and blue circles in the above plot for older speakers have more overlap than in the first plot for young speakers.</p>
+            <p><strong>Alternatively, if we run a PCA on energies by frequency bins:</strong></p>
+            “Elements” in the following plots refer to frequency bins in the long-term-average-spectra (bin width = 250 Hz, LTAS range = 550 - 10000 Hz).
+            <div class="figure">
+            <img src="Eigenvector1.png" alt="Eigenvector 1 looks like it's just amplitude difference" width="100%" />
+            <p class="caption">
+            Eigenvector 1 looks like it’s just amplitude difference
+            </p>
+            </div>
+            If we then plot eigenvector 2 against 3 by age group:
+            <div class="figure">
+            <img src="PC2PC3O.png" alt="age &gt; 60" width="100%" />
+            <p class="caption">
+            age &gt; 60
+            </p>
+            </div>
+            <div class="figure">
+            <img src="PC2PC3Y.png" alt="18&lt; age &lt; 30" width="100%" />
+            <p class="caption">
+            18&lt; age &lt; 30
+            </p>
+            </div>
+            We can also try some random forest!
+            <div class="figure">
+            <img src="youngForest.png" alt="ranking of bins in the younger speakers" width="100%" />
+            <p class="caption">
+            ranking of bins in the younger speakers
+            </p>
+            </div>
+            <div class="figure">
+            <img src="oldForest.png" alt="ranking of bins in the older speakers" width="100%" />
+            <p class="caption">
+            ranking of bins in the older speakers
+            </p>
+            </div>
+            </div>
+            <div id="things-you-didnt-need-to-know" class="section level2">
+            <h2>Things you didn’t need to know:</h2>
+            <p>If you want to get to know me a tiny bit better, here are my cardinal vowels plotted.</p>
+            <p>(I mean, what better way to get to know someone, right?)</p>
+            <p><img src="cardinalVowels.png" width="80%" /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src=pinch.jpg style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>Xinyu Zhang</h1>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=mailto:xinyu.zhang1@student.uva.nl>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      Email
+                    </button>
+                  </a>
+                                    <a href=https://twitter.com/extrametriclWug>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      Twitter
+                    </button>
+                  </a>
+                                  </div>
+              </div>
+            </div>
+            <div class="p pt-4 px-5">
+              <head>
+                      <title>Xinyu Zhang's Page</title>
+                      <meta charset="UTF-8">
+                      <!-- Global site tag (gtag.js) - Google Analytics -->
+                      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143097840-1"></script>
+                      <script>
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'UA-143097840-1');
+                      </script>
+              </head>
+              <p><img src="spectrogram.png" width="100%" /></p>
+              <div id="bio" class="section level2">
+              <h2>Bio</h2>
+              <p>Xinyu Zhang ([ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥]) is a linguist in training. She currently studies at <a href="https://aclc.uva.nl/about/about-aclc-update.html">ACLC</a> of <a href="https://https://www.uva.nl/en">University of Amsterdam</a>, under the supervision of <a href="https://www.fon.hum.uva.nl/rob/">Dr. Rob van Son</a> and <a href="https://www.fon.hum.uva.nl/paul/">Dr. Paul Boersma</a>. Her main areas of interest are phonetics and phonology, acoustic and articulatory phonetics, and production-perception interaction.</p>
+              <p>Her most recent research projects include a study on the cross-generation auditory dispersion of the Dutch sibilants /s/ and /ɕ/, and a study of the psychoacoustics of perceived voice qualities after the treatment of laryngeal carcinoma.</p>
+              <p>Please like and subscribe :)</p>
+              </div>
+              <div id="education" class="section level2">
+              <h2>Education</h2>
+              <p><strong>University of Amsterdam - ACLC</strong> | Amsterdam, The Netherlands</p>
+              <p>M.Phil in Linguistics | September 2019 - Now</p>
+              <p><strong>University of Amsterdam</strong> | Amsterdam, The Netherlands</p>
+              <p>MA in General Linguisitics | September 2018 - August 2020</p>
+              </div>
+              <div id="party-tricks" class="section level2">
+              <h2>Party Tricks</h2>
+              <p><strong>Praat sings Happy Birthday</strong> | <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/PraatSingsHappyBDay_XinyuZhang.praat">Praat Script</a> | © Xinyu Zhang, 2019</p>
+              <p><strong>Let R automate participant notification email for ya</strong> | <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/automail">R script + Rmd</a>|© Mine Çetinkaya-Rundel, 2015; modified by Xinyu Zhang, 2021</p>
+              </div>
+              <div id="results-from-the-voice-quality-study" class="section level2">
+              <h2>Results from the voice quality study:</h2>
+              <p><strong>Progress as of March 3, 2021</strong></p>
+              <ul>
+              <li><p>View <a href="https://github.com/xinyu-z/xinyu-z.github.io/blob/master/MPhilThesisPresentation.pdf">slides</a></p></li>
+              <li><p>Some highlights:</p></li>
+              </ul>
+              <div class="figure">
+              <img src="roughnessPlot.png" alt="Roughness as predicted by acoustic measurements" width="100%" />
+              <p class="caption">
+              Roughness as predicted by acoustic measurements
+              </p>
+              </div>
+              <div class="figure">
+              <img src="breathinessPlot.png" alt="De-correlated breathiness as predicted by acoustic measurements" width="100%" />
+              <p class="caption">
+              De-correlated breathiness as predicted by acoustic measurements
+              </p>
+              </div>
+              </div>
+              <div id="results-from-the-sibilant-study" class="section level2">
+              <h2>Results from the sibilant study</h2>
+              <p>(All participants who indicated interest in the findings on the consent form have been emailed the full results. Thank you all for donating your voices &lt;3)</p>
+              <p>If you want to read the whole paper: <a href="https://scripties.uba.uva.nl/search?id=c3239102">PDF</a>.</p>
+              <p>Otherwise, some TL;DR:</p>
+              <p><strong>Acoustic distance between [ɕ] and [s] in each participant, separated by age group:</strong></p>
+              <div class="figure">
+              <img src="CoG-StdevY.png" alt="Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis" width="100%" />
+              <p class="caption">
+              Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis
+              </p>
+              </div>
+              <div class="figure">
+              <img src="CoG-StdevO.png" alt="Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis" width="100%" />
+              <p class="caption">
+              Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis
+              </p>
+              </div>
+              <p>The red and blue circles in the above plot for older speakers have more overlap than in the first plot for young speakers.</p>
+              <p><strong>Alternatively, if we run a PCA on energies by frequency bins:</strong></p>
+              “Elements” in the following plots refer to frequency bins in the long-term-average-spectra (bin width = 250 Hz, LTAS range = 550 - 10000 Hz).
+              <div class="figure">
+              <img src="Eigenvector1.png" alt="Eigenvector 1 looks like it's just amplitude difference" width="100%" />
+              <p class="caption">
+              Eigenvector 1 looks like it’s just amplitude difference
+              </p>
+              </div>
+              If we then plot eigenvector 2 against 3 by age group:
+              <div class="figure">
+              <img src="PC2PC3O.png" alt="age &gt; 60" width="100%" />
+              <p class="caption">
+              age &gt; 60
+              </p>
+              </div>
+              <div class="figure">
+              <img src="PC2PC3Y.png" alt="18&lt; age &lt; 30" width="100%" />
+              <p class="caption">
+              18&lt; age &lt; 30
+              </p>
+              </div>
+              We can also try some random forest!
+              <div class="figure">
+              <img src="youngForest.png" alt="ranking of bins in the younger speakers" width="100%" />
+              <p class="caption">
+              ranking of bins in the younger speakers
+              </p>
+              </div>
+              <div class="figure">
+              <img src="oldForest.png" alt="ranking of bins in the older speakers" width="100%" />
+              <p class="caption">
+              ranking of bins in the older speakers
+              </p>
+              </div>
+              </div>
+              <div id="things-you-didnt-need-to-know" class="section level2">
+              <h2>Things you didn’t need to know:</h2>
+              <p>If you want to get to know me a tiny bit better, here are my cardinal vowels plotted.</p>
+              <p>(I mean, what better way to get to know someone, right?)</p>
+              <p><img src="cardinalVowels.png" width="80%" /></p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  
+  </body>
 </html>
