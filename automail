@@ -1,8 +1,4 @@
-```{r}
----
-output: pdf_document
----
-##Packages
+## Packages
 library(knitr)
 library(rmarkdown)
  
@@ -17,6 +13,8 @@ for (i in 1:nrow(personalized_info)){
  output_dir = "handouts/")
 }
 
+## Start Rmd below:
+
 ---
 output: pdf_document
 ---
@@ -29,6 +27,6 @@ time <- personalized_info$meeting_time[i]
  
 Dear `r name`,
  
-Your meeting time is `r time`.
+Your appointment is at `r time`.
  
 See you then!
