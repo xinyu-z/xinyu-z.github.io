@@ -126,3 +126,4 @@ If you want to get to know me a tiny bit better, here are my cardinal vowels plo
 ```{r, echo=FALSE, out.width="80%"}
 knitr::include_graphics("cardinalVowels.png")
 ```
+Also, I play the sacriligious [otamatone](https://youtu.be/bQcUFm6pRQc)
