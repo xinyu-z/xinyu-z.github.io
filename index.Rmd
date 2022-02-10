@@ -3,9 +3,9 @@ title: "Xinyu Zhang"
 image: "pinch.jpg"
 links:
   - label: Email
-    url: "mailto:xinyu.zhang1@student.uva.nl"
+    url: "mailto:xinyu.zhang@ru.nl"
   - label: Twitter
-    url: "https://twitter.com/extrametriclWug"
+    url: "https://twitter.com/extrametrical_"
 
 output:
   postcards::trestles
@@ -32,8 +32,9 @@ knitr::include_graphics("spectrogram.png")
 
 ## Bio
 
-Xinyu Zhang ([ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥]) is a linguist in training. She currently
-studies at [ACLC](https://aclc.uva.nl/about/about-aclc-update.html) of [University of Amsterdam](https://https://www.uva.nl/en), under the supervision of [Dr. Rob van Son](https://www.fon.hum.uva.nl/rob/) and [Dr. Paul Boersma](https://www.fon.hum.uva.nl/paul/). Her main areas of interest are phonetics and phonology, acoustic and articulatory phonetics, and production-perception interaction.
+Xinyu Zhang ([ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥]) is a linguist in training. She currently studies at [CLS Radboud](https://www.ru.nl/cls/) and [International Max Planck Research School for language sciences] (https://www.mpi.nl/department/imprs-graduate-school/13/people). Previously she
+
+studied at [ACLC](https://aclc.uva.nl/about/about-aclc-update.html) of [University of Amsterdam](https://https://www.uva.nl/en), under the supervision of [Dr. Rob van Son](https://www.fon.hum.uva.nl/rob/) and [Dr. Paul Boersma](https://www.fon.hum.uva.nl/paul/). Her main areas of interest are phonetics and phonology, acoustic and articulatory phonetics, and production-perception interaction.
 
 Her most recent research projects include a study on the cross-generation auditory dispersion of the Dutch sibilants /s/ and /ɕ/, and a study of the psychoacoustics of perceived voice qualities after the treatment of laryngeal carcinoma.
 
@@ -41,9 +42,14 @@ Please like and subscribe :)
 
 ## Education
 
+**International Max Planck Research School for language sciences** | Nijmegen, The Netherlands
+Graduate student | September 2021 - now
+**Radboud University** | Nijmegen, The Netherlands
+PhD in Linguistics | September 2021 - now
+
 **University of Amsterdam - ACLC** | Amsterdam, The Netherlands
 
-M.Phil in Linguistics | September 2019 - Now
+M.Phil in Linguistics | September 2019 - 2021
 
 **University of Amsterdam** | Amsterdam, The Netherlands
 
