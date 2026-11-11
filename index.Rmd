@@ -1,6 +1,6 @@
 ---
 title: "Xinyu Zhang"
-image: "pinch.jpg"
+image: "octo.jpg"
 links:
   - label: Email
     url: "mailto:xinyu.zhang@ru.nl"
@@ -32,14 +32,38 @@ knitr::include_graphics("spectrogram.png")
 
 ## Bio
 
-Xinyu Zhang ([ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥]) is a linguist in training. She currently studies at [CLS Radboud](https://www.ru.nl/cls/) and [International Max Planck Research School for language sciences] (https://www.mpi.nl/department/imprs-graduate-school/13/people). Previously she
+I am Xinyu Zhang*, linguist in training. I am currently a PhD candidate at [CLS Radboud](https://www.ru.nl/cls/) and [International Max Planck Research School for language sciences](https://www.mpi.nl/department/imprs-graduate-school/13/people). 
 
-studied at [ACLC](https://aclc.uva.nl/about/about-aclc-update.html) of [University of Amsterdam](https://https://www.uva.nl/en), under the supervision of [Dr. Rob van Son](https://www.fon.hum.uva.nl/rob/) and [Dr. Paul Boersma](https://www.fon.hum.uva.nl/paul/). Her main areas of interest are phonetics and phonology, acoustic and articulatory phonetics, and production-perception interaction.
+For my PhD project, I study the relationship between speech production and speech perception, by looking at both typical and clinical populations.
 
-Her most recent research projects include a study on the cross-generation auditory dispersion of the Dutch sibilants /s/ and /ɕ/, and a study of the psychoacoustics of perceived voice qualities after the treatment of laryngeal carcinoma.
+Previously I studied at [ACLC](https://aclc.uva.nl/about/about-aclc-update.html) of [University of Amsterdam](https://https://www.uva.nl/en), under the supervision of [Dr. Rob van Son](https://www.fon.hum.uva.nl/rob/) and [Dr. Paul Boersma](https://www.fon.hum.uva.nl/paul/).
+
+My previous research projects include a study on the cross-generation auditory dispersion of the Dutch sibilants /s/ and /ɕ/, and a study of the psychoacoustics of perceived voice qualities after the treatment of laryngeal carcinoma.
 
 Please like and subscribe :)
 
+*Prescribed pronunciation: [ɕin˥˥ɥy˨˩˦ ʈ͡ʂɑŋ˥˥], but I welcome and am interested in all phonological adaptations.
+
+## News
+
+- Three of my blog posts are now out on Max Planck Institute's [TalkLing](https://www.mpi.nl/talkling). 
+Go have a look if you are interested in some ELI5 about  the role of somatosensory feedback on speech perception, a.k.a. [Listening with your mouth full](https://www.mpi.nl/blog/listening-your-mouth-full-role-somatosensory-feedback-speech-perception), the role of auditory feedback on speech production, in other words ["Are you even listening to yourself?"](https://www.mpi.nl/blog/are-you-even-listening-yourself-role-auditory-feedback-speech-production), and/or how somatosensory information improves speech intelligibility, or to put it another way [Talk a while in their tongues](https://www.mpi.nl/blog/talk-while-their-tongues-somatosensory-information-improves-speech-intelligibility).
+
+- I will be presenting [my production experiment](https://nvfw.org/content/2025p-accommodation-tongue-height-obstruction-acoustic-outcomes-and-aftereffects) at the [Dag van de Fonetiek](https://nvfw.org/) on 31 Oct.
+
+- I will be presenting at Max Planck Institute's [Bite-Sized Insights](https://www.ru.nl/en/donders-institute/agenda/bite-sized-insights-mpi) on 7 Oct. Come see me during your lunch break :) 
+
+- I was presenting at [ISSP](https://issp24.sciencesconf.org/) in Autrans, France, and had a blast!
+```{r, echo=FALSE, out.width="30%", fig.cap = "Me telling [Mitoki] (https://motokisaito.com/) about my three way interaction."}
+knitr::include_graphics("ISSP.jpg")
+```
+
+```{r, echo=FALSE, out.width="40%", fig.cap = "It finally stopped raining on the last day, and we had the poster session outside!"}
+knitr::include_graphics("outsideposter.jpg")
+```
+
+- I will be presenting at [ICPhS](https://www.internationalphoneticassociation.org/content/icphs)in Prague! <3 
+           
 ## Education
 
 **International Max Planck Research School for language sciences** | Nijmegen, The Netherlands
@@ -62,67 +86,6 @@ MA in General Linguisitics | September 2018 - August 2020
 
 **Let R automate participant notification email for ya** | [R script + Rmd](https://github.com/xinyu-z/xinyu-z.github.io/blob/master/automail)|© Mine Çetinkaya-Rundel, 2015; modified by Xinyu Zhang, 2021
 
-## Results from the voice quality study:
-
-**Progress as of March 3, 2021** 
-
-- View [slides](https://github.com/xinyu-z/xinyu-z.github.io/blob/master/MPhilThesisPresentation.pdf)
-
-- Some highlights:
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "Roughness as predicted by acoustic measurements"}
-knitr::include_graphics("roughnessPlot.png")
-```
-
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "De-correlated breathiness as predicted by acoustic measurements"}
-knitr::include_graphics("breathinessPlot.png")
-```
-
-## Results from the sibilant study
-
-(All participants who indicated interest in the findings on the consent form have been emailed the full results. Thank you all for donating your voices <3)
-
-If you want to read the whole paper: [PDF](https://scripties.uba.uva.nl/search?id=c3239102). 
-
-Otherwise, some TL;DR:
-
-**Acoustic distance between [ɕ] and [s] in each participant, separated by age group:**
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "Speakers aged between 18-30, Center of Gravity on X-axis, standard deviation of the peak on Y-axis"}
-knitr::include_graphics("CoG-StdevY.png")
-```
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "Speakers aged above 60, Center of Gravity on X-axis, standard deviation of the peak on Y-axis"}
-knitr::include_graphics("CoG-StdevO.png")
-```
-The red and blue circles in the above plot for older speakers have more overlap than in the first plot for young speakers.
-
-**Alternatively, if we run a PCA on energies by frequency bins:**
-
-“Elements” in the following plots refer to frequency bins in the long-term-average-spectra (bin width = 250 Hz, LTAS range = 550 - 10000 Hz).
-```{r, echo=FALSE, out.width="100%", fig.cap = "Eigenvector 1 looks like it's just amplitude difference"}
-knitr::include_graphics("Eigenvector1.png")
-```
-
-If we then plot eigenvector 2 against 3 by age group:
-```{r, echo=FALSE, out.width="100%", fig.cap = "age > 60"}
-knitr::include_graphics("PC2PC3O.png")
-```
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "18< age < 30"}
-knitr::include_graphics("PC2PC3Y.png")
-```
-** Or, We can also try some random forest!**
-```{r, echo=FALSE, out.width="100%", fig.cap = "ranking of bins in the younger speakers"}
-knitr::include_graphics("youngForest.png")
-```
-
-```{r, echo=FALSE, out.width="100%", fig.cap = "ranking of bins in the older speakers"}
-knitr::include_graphics("oldForest.png")
-```
-
-
 ## Things you didn't need to know:
 
 If you want to get to know me a tiny bit better, here are my cardinal vowels plotted.
@@ -132,4 +95,16 @@ If you want to get to know me a tiny bit better, here are my cardinal vowels plo
 ```{r, echo=FALSE, out.width="80%"}
 knitr::include_graphics("cardinalVowels.png")
 ```
+
 Also, I play the sacriligious [otamatone](https://youtu.be/bQcUFm6pRQc)
+
+
+## Vault:
+
+
+- Voice quality study [rMA thesis](https://github.com/xinyu-z/xinyu-z.github.io/blob/master/MPhilThesisPresentation.pdf)
+
+- Sibilant study [MA thesis](https://www.fon.hum.uva.nl/archive/2020/2020-MA-XinyuZhang.pdf)
+
+
+
